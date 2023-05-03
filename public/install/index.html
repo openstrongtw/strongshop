@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>StrongShop商城安装</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div style="width:500px; height: auto;margin:0 auto;">
+            <h2 style="text-align: center;">安装 StrongShop</h2>
+            <div id="checkPHP" style="display: none;">
+                <hr/>
+                <ul></ul>
+            </div>
+            <hr/>
+            <form action="/install/install.php">
+                数据库主机：<input type="text" name="host" value="127.0.0.1" /> <br/>
+                数据库端口：<input type="text" name="port" value="3306" /> <br/>
+                数据库名称：<input type="text" name="database" value="strongshop"  /> <br/>
+                数据库账号：<input type="text" name="username" value="root"  /> <br/>
+                数据库密码：<input type="text" name="password" value=""  /> <br/>
+                <div id="checkDBShow" style="display: none;">
+                    <hr/>
+                    <span></span>
+                </div>
+                <div id="checkInstall" style="display: none;">
+                    <hr/>
+                    <p></p>
+                </div>
+                <div id="pullLog" style="display: none;">
+                    <hr/>
+                    <p></p>
+                </div>
+                <br/>
+                <button id="checkDB" type="button">检测数据库连接</button> <button type="button" id="install">开始安装</button> 
+            </form>
+        </div>
+        <script src="/plugins/jquery/jquery-3.5.1.min.js"></script>
+        <script>
+            $(function () {
+                var timer;
+                $.get('/install/install.php', {cmd: "checkPHP"}, function (res) {
+                    console.log(res);
+                    if(res.code !== 200){
+                        $("#checkInstall").show().children('p').html(res.message);
+                        return;
+                    }
+                    var txt = '';
+
+                    for (x in res.list)
+                    {
+                        txt += '<li><span style="display:inline-block;width:200px;">';
+                        txt += res.list[x]['v1'] + '</span> --- ';
+                        txt += res.list[x]['v2'];
+                        txt += '</li>';
+                    }
+                    console.log(txt);
+                    $("#checkPHP").show().find('ul').html(txt);
+                }, 'json');
+
+                $("#checkDB").click(function () {
+                    var host = $("input[name=host]").val();
+                    var port = $("input[name=port]").val();
+                    var database = $("input[name=database]").val();
+                    var username = $("input[name=username]").val();
+                    var password = $("input[name=password]").val();
+                    $.get('/install/install.php', {cmd: "checkDB", host: host, port: port, database: database, username: username, password: password}, function (res) {
+                        console.log(res);
+                        $("#checkDBShow").show().children('span').html(res.message);
+                    }, 'json');
+                });
+
+                $("#install").click(function () {
+                    clearInterval(timer);
+                    $("#checkInstall").show().children('p').html('');
+                    var host = $("input[name=host]").val();
+                    var port = $("input[name=port]").val();
+                    var database = $("input[name=database]").val();
+                    var username = $("input[name=username]").val();
+                    var password = $("input[name=password]").val();
+                    $.get('/install/install.php', {cmd: "install", host: host, port: port, database: database, username: username, password: password}, function (res) {
+                        console.log(res);
+                        if (res.code !== 200) {
+                            $("#checkInstall").show().children('p').html(res.message);
+                        }
+                    }, 'json');
+
+                    timer = setInterval(function () {
+                        $.get('/install/install.php', {cmd: "pullLog"}, function (res) {
+                            console.log(res);
+                            $("#pullLog").show().children('p').html(res.data);
+                        }, 'json');
+                    }, 1000);
+
+
+                });
+            });
+        </script>
+    </body>
+</html>
