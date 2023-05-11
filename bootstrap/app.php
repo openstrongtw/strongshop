@@ -1,8 +1,5 @@
 <?php
 
-//检测安装
-checkInstall();
-
 /*
 |--------------------------------------------------------------------------
 | Create The Application
@@ -13,6 +10,7 @@ checkInstall();
 | the IoC container for the system binding all of the various parts.
 |
 */
+
 
 $app = new Illuminate\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)

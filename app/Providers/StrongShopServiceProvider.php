@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Database\QueryException;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 use Illuminate\Pagination\Paginator;
@@ -46,7 +47,7 @@ class StrongShopServiceProvider extends ServiceProvider
         View::composer('layouts/app', 'App\Http\View\Composers\LayoutsComposer');
         //購物車
         View::composer(['layouts/app', 'shoppingcart/index'], 'App\Http\View\Composers\ShoppingCartComposer');
-        
+
         //自定義 blade 指令
         BladeRepository::setPriceBlade();
     }
@@ -56,7 +57,11 @@ class StrongShopServiceProvider extends ServiceProvider
      */
     private function configStrongshop()
     {
-        AppRepository::changeConfig();
+        try {
+            AppRepository::changeConfig();
+        } catch (QueryException) {
+
+        }
     }
 
     /**
@@ -77,12 +82,12 @@ class StrongShopServiceProvider extends ServiceProvider
 
     private function registerConfigs()
     {
-        
+
     }
 
     private function registerCommands()
     {
-        
+
     }
 
     /**
@@ -92,7 +97,7 @@ class StrongShopServiceProvider extends ServiceProvider
      */
     private function registerRoutes()
     {
-        
+
     }
 
     /**
@@ -104,7 +109,7 @@ class StrongShopServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole())
         {
-            
+
         }
     }
 
@@ -117,7 +122,7 @@ class StrongShopServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole())
         {
-            
+
         }
     }
 
@@ -126,7 +131,7 @@ class StrongShopServiceProvider extends ServiceProvider
      */
     private function registerViews()
     {
-        
+
     }
 
     /**
@@ -134,7 +139,7 @@ class StrongShopServiceProvider extends ServiceProvider
      */
     private function registerTranslations()
     {
-        
+
     }
 
     /**
@@ -142,7 +147,7 @@ class StrongShopServiceProvider extends ServiceProvider
      */
     private function registerJsonTranslations()
     {
-        
+
     }
 
     /**
@@ -150,7 +155,7 @@ class StrongShopServiceProvider extends ServiceProvider
      */
     private function registerListeners()
     {
-        
+
     }
 
 }

@@ -20,6 +20,7 @@
     "require": {
         "php": "^8.1",
         "alibabacloud/dm-20151123": "*",
+        "elasticsearch/elasticsearch": "*",
         "guzzlehttp/guzzle": "^7.2",
         "laravel-lang/lang": "^12.0",
         "laravel/framework": "^10.8",
@@ -27,6 +28,7 @@
         "laravel/socialite": "^5.6",
         "laravel/telescope": "^4.0",
         "laravel/tinker": "^2.8",
+        "laravel/ui": "^4.2",
         "mews/captcha": "^3.0",
         "openstrong/laravel-strongadmin": "^2.1",
         "overtrue/laravel-filesystem-qiniu": "^2.0",
@@ -35,8 +37,9 @@
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
+        "kitloong/laravel-migrations-generator": "^6.10",
         "laravel/pint": "^1.0",
-        "laravel/sail": "^1.18",
+        "laravel/sail": "^1.21",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10.1",
