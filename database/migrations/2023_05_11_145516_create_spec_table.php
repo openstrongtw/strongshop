@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('spec', function (Blueprint $table) {
             $table->comment('產品規格表');
             $table->id()->comment('規格id');
-            $table->unsignedBigInteger('spec_group_id')->default(0)->comment('規格組id');
+            $table->unsignedBigInteger('spec_group_id')->default(0)->comment('規格組id')->index();
             $table->string('name', 255)->default('')->comment('規格名稱');
             $table->integer('spec_type')->default(1)->comment('規格型別：1 價格規格，2 普通規格');
             $table->integer('input_type')->default(1)->comment('錄入方式：1 下拉選擇，2 文字輸入');

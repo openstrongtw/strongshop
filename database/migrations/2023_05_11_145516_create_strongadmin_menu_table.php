@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('strongadmin_menu', function (Blueprint $table) {
             $table->comment('菜單表');
-            $table->integer('id', true)->comment('菜單id');
+            $table->id()->comment('菜單id');
             $table->unsignedInteger('level')->nullable()->default(1)->comment('等級 1 一級菜單, 2 二級菜單, 3 三級菜單');
             $table->unsignedInteger('parent_id')->nullable()->default(0)->comment('上級菜單');
             $table->string('name', 100)->nullable()->default('')->comment('菜單名稱');

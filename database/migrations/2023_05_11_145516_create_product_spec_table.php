@@ -15,11 +15,12 @@ return new class extends Migration
     {
         Schema::create('product_spec', function (Blueprint $table) {
             $table->unsignedBigInteger('product_id')->default(0)->comment('產品id');
-            $table->integer('spec_id')->default(0)->comment('規格id');
+            $table->unsignedBigInteger('spec_id')->default(0)->comment('規格id');
             $table->integer('spec_type')->default(1)->comment('規格型別：1 價格規格，2 普通規格');
             $table->string('spec_value', 255)->comment('規格值');
             $table->dateTime('created_at')->nullable()->comment('建立時間');
             $table->dateTime('updated_at')->nullable()->comment('更新時間');
+            $table->index(['product_id','spec_id']);
         });
     }
 

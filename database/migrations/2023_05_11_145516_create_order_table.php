@@ -34,7 +34,7 @@ return new class extends Migration
             $table->integer('shipping_option_id')->default(0)->comment('配送id');
             $table->string('tracking_no', 255)->default('')->comment('物流跟蹤單號');
             $table->string('shipping_remark', 255)->default('')->comment('配送備註：可填寫具體配送公司等資訊，此資訊在前臺訂單詳情顯示');
-            $table->integer('payment_option_id')->default(0)->comment('支付id');
+            $table->unsignedBigInteger('payment_option_id')->default(0)->comment('支付id');
             $table->string('transaction_id', 255)->default('')->comment('支付平臺流水號id');
             $table->string('remark', 255)->default('')->comment('訂單備註');
             $table->string('first_name', 255)->default('')->comment('名');

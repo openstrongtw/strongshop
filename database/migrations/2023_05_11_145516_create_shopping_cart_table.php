@@ -16,9 +16,9 @@ return new class extends Migration
         Schema::create('shopping_cart', function (Blueprint $table) {
             $table->comment('購物車');
             $table->id();
-            $table->unsignedInteger('user_id')->default(0)->comment('使用者id');
+            $table->unsignedBigInteger('user_id')->default(0)->comment('使用者id')->index();
             $table->string('uuid', 100)->default('');
-            $table->unsignedInteger('product_id')->default(0);
+            $table->unsignedBigInteger('product_id')->default(0);
             $table->unsignedDecimal('product_price', 10)->default(0)->comment('加入購物車時的價格，不作為結算單價');
             $table->unsignedInteger('qty')->default(1)->comment('數量');
             $table->unsignedInteger('is_buy_now')->default(0)->comment('是否是立即購買');

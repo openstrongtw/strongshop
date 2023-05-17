@@ -224,6 +224,7 @@ class ProductController extends Controller
             }
             $spec['spu_specs'] = $new_group_spec;
         }
+
         $row->spu_specs = $spu_specs;
         //** end 處理 spu 價格規格
         //收藏狀態

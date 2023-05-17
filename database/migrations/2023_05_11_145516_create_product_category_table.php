@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('product_category', function (Blueprint $table) {
             $table->comment('產品-分類 關聯表');
             $table->id();
+            $table->unsignedBigInteger('category_id')->index();
             $table->unsignedBigInteger('product_id');
-            $table->unsignedBigInteger('category_id');
         });
     }
 

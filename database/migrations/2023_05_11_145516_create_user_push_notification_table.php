@@ -18,8 +18,8 @@ return new class extends Migration
             $table->id();
             $table->integer('type')->default(1)->comment('通知型別：1 郵件，2 簡訊');
             $table->string('title', 255)->default('')->comment('標題');
-            $table->longText('content')->comment('內容 ');
-            $table->integer('admin_id')->default(0);
+            $table->longText('content')->comment('內容');
+            $table->unsignedBigInteger('admin_id')->default(0);
             $table->dateTime('send_at')->nullable()->comment('推送時間');
             $table->integer('status')->default(1)->comment('狀態：1 正常，2 取消');
             $table->dateTime('created_at')->nullable()->comment('建立時間');
