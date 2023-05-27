@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ca60f12b9e3a30c2b17b49a1d8c57dc",
+    "content-hash": "04997114e97904e312a6b7236fc41000",
     "packages": [
         {
             "name": "adbario/php-dot-notation",
@@ -4095,24 +4095,27 @@
             "time": "2023-02-08T01:06:31+00:00"
         },
         {
-            "name": "openstrong/laravel-strongadmin",
-            "version": "v2.1",
+            "name": "openstrongtw/laravel-strongadmin",
+            "version": "dev-modify",
             "source": {
                 "type": "git",
-                "url": "https://github.com/openstrong/laravel-strongadmin.git",
-                "reference": "bc0f1db7c0e2036bcab29d8faf6e9e6648494cbe"
+                "url": "https://github.com/openstrongtw/laravel-strongadmin.git",
+                "reference": "5396dee5141183aa6741265287ef50b7cbff3dd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openstrong/laravel-strongadmin/zipball/bc0f1db7c0e2036bcab29d8faf6e9e6648494cbe",
-                "reference": "bc0f1db7c0e2036bcab29d8faf6e9e6648494cbe",
+                "url": "https://api.github.com/repos/openstrongtw/laravel-strongadmin/zipball/5396dee5141183aa6741265287ef50b7cbff3dd3",
+                "reference": "5396dee5141183aa6741265287ef50b7cbff3dd3",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": ">=5.5",
                 "mews/captcha": "^3.2",
-                "openstrong/laravel-strongstub": ">=1.0",
+                "openstrongtw/laravel-strongstub": ">=1.0",
                 "php": ">=7.0"
+            },
+            "replace": {
+                "openstrong/laravel-strongadmin": "2.*"
             },
             "type": "laravel-extension",
             "extra": {
@@ -4137,37 +4140,40 @@
                     "email": "openstrong@foxmail.com"
                 }
             ],
-            "description": "在1分钟内构建一个功能齐全的管理后台。基于 layui 前端框架开发的 Laravel 后台管理框架。功能有 权限管理、菜单管理、角色管理、日志记录等。",
+            "description": "在1分鐘內構建一個功能齊全的管理後臺。基於 layui 前端框架開發的 Laravel 後臺管理框架。功能有 許可權管理、菜單管理、角色管理、日誌記錄等。",
             "homepage": "http://strongstub.strongshop.cn",
             "keywords": [
                 "laravel",
                 "layui",
                 "php",
-                "后台管理"
+                "後臺管理"
             ],
             "support": {
-                "issues": "https://github.com/openstrong/laravel-strongadmin/issues",
-                "source": "https://github.com/openstrong/laravel-strongadmin/tree/v2.1"
+                "issues": "https://github.com/openstrongtw/laravel-strongadmin/issues",
+                "source": "https://github.com/openstrongtw/laravel-strongadmin/tree/modify"
             },
-            "time": "2022-02-18T02:40:51+00:00"
+            "time": "2023-05-26T18:06:07+00:00"
         },
         {
-            "name": "openstrong/laravel-strongstub",
+            "name": "openstrongtw/laravel-strongstub",
             "version": "v2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/openstrong/laravel-strongstub.git",
-                "reference": "e898907544dadfdb414e10b1bac6d735a79e6726"
+                "url": "https://github.com/openstrongtw/laravel-strongstub.git",
+                "reference": "07fab90d7d0c70661b1c59104be3f4cf4e0396ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openstrong/laravel-strongstub/zipball/e898907544dadfdb414e10b1bac6d735a79e6726",
-                "reference": "e898907544dadfdb414e10b1bac6d735a79e6726",
+                "url": "https://api.github.com/repos/openstrongtw/laravel-strongstub/zipball/07fab90d7d0c70661b1c59104be3f4cf4e0396ae",
+                "reference": "07fab90d7d0c70661b1c59104be3f4cf4e0396ae",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": ">=5.5",
                 "php": ">=7.0"
+            },
+            "replace": {
+                "openstrong/laravel-strongstub": "2.*"
             },
             "type": "laravel-extension",
             "extra": {
@@ -4192,7 +4198,7 @@
                     "email": "openstrong@foxmail.com"
                 }
             ],
-            "description": "在十秒内创建完成 CURD 增删改查的逻辑。",
+            "description": "在十秒內建立完成 CURD 增刪改查的邏輯。",
             "homepage": "http://strongstub.strongshop.cn",
             "keywords": [
                 "curd",
@@ -4200,10 +4206,10 @@
                 "rules"
             ],
             "support": {
-                "issues": "https://github.com/openstrong/laravel-strongstub/issues",
-                "source": "https://github.com/openstrong/laravel-strongstub/tree/v2.0"
+                "issues": "https://github.com/openstrongtw/laravel-strongstub/issues",
+                "source": "https://github.com/openstrongtw/laravel-strongstub/tree/v2.0"
             },
-            "time": "2021-10-25T09:31:46+00:00"
+            "time": "2023-05-26T17:02:15+00:00"
         },
         {
             "name": "overtrue/flysystem-qiniu",
@@ -10815,7 +10821,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "openstrongtw/laravel-strongadmin": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

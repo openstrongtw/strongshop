@@ -14,12 +14,12 @@ class RegionCountryTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('region_country')->delete();
-        
+
         \DB::table('region_country')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 253,
                 'continent_iso2' => 'EU',
@@ -33,7 +33,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => '2021-08-07 10:56:22',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 254,
                 'continent_iso2' => 'AS',
@@ -47,7 +47,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 255,
                 'continent_iso2' => 'AS',
@@ -61,7 +61,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 256,
                 'continent_iso2' => 'NA',
@@ -75,7 +75,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 257,
                 'continent_iso2' => 'NA',
@@ -89,7 +89,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 258,
                 'continent_iso2' => 'EU',
@@ -103,7 +103,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 259,
                 'continent_iso2' => 'AS',
@@ -117,7 +117,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 260,
                 'continent_iso2' => 'NA',
@@ -131,7 +131,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 261,
                 'continent_iso2' => 'AF',
@@ -145,7 +145,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 262,
                 'continent_iso2' => 'AN',
@@ -159,7 +159,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 263,
                 'continent_iso2' => 'SA',
@@ -173,7 +173,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 264,
                 'continent_iso2' => 'OC',
@@ -187,7 +187,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 265,
                 'continent_iso2' => 'EU',
@@ -201,7 +201,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 266,
                 'continent_iso2' => 'OC',
@@ -215,7 +215,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 267,
                 'continent_iso2' => 'NA',
@@ -229,7 +229,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 268,
                 'continent_iso2' => 'EU',
@@ -243,7 +243,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 269,
                 'continent_iso2' => 'AS',
@@ -257,7 +257,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 270,
                 'continent_iso2' => 'EU',
@@ -271,7 +271,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 271,
                 'continent_iso2' => 'NA',
@@ -285,7 +285,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            19 => 
+            19 =>
             array (
                 'id' => 272,
                 'continent_iso2' => 'AS',
@@ -299,7 +299,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            20 => 
+            20 =>
             array (
                 'id' => 273,
                 'continent_iso2' => 'EU',
@@ -313,7 +313,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            21 => 
+            21 =>
             array (
                 'id' => 274,
                 'continent_iso2' => 'AF',
@@ -327,7 +327,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            22 => 
+            22 =>
             array (
                 'id' => 275,
                 'continent_iso2' => 'EU',
@@ -341,7 +341,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            23 => 
+            23 =>
             array (
                 'id' => 276,
                 'continent_iso2' => 'AS',
@@ -355,7 +355,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            24 => 
+            24 =>
             array (
                 'id' => 277,
                 'continent_iso2' => 'AF',
@@ -369,7 +369,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            25 => 
+            25 =>
             array (
                 'id' => 278,
                 'continent_iso2' => 'AF',
@@ -383,7 +383,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            26 => 
+            26 =>
             array (
                 'id' => 279,
                 'continent_iso2' => 'NA',
@@ -397,7 +397,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            27 => 
+            27 =>
             array (
                 'id' => 280,
                 'continent_iso2' => 'NA',
@@ -411,7 +411,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            28 => 
+            28 =>
             array (
                 'id' => 281,
                 'continent_iso2' => 'AS',
@@ -425,7 +425,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            29 => 
+            29 =>
             array (
                 'id' => 282,
                 'continent_iso2' => 'SA',
@@ -439,7 +439,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            30 => 
+            30 =>
             array (
                 'id' => 283,
                 'continent_iso2' => 'NA',
@@ -453,7 +453,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            31 => 
+            31 =>
             array (
                 'id' => 284,
                 'continent_iso2' => 'SA',
@@ -467,7 +467,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            32 => 
+            32 =>
             array (
                 'id' => 285,
                 'continent_iso2' => 'NA',
@@ -481,7 +481,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            33 => 
+            33 =>
             array (
                 'id' => 286,
                 'continent_iso2' => 'AS',
@@ -495,7 +495,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            34 => 
+            34 =>
             array (
                 'id' => 287,
                 'continent_iso2' => 'AN',
@@ -509,7 +509,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            35 => 
+            35 =>
             array (
                 'id' => 288,
                 'continent_iso2' => 'AF',
@@ -523,7 +523,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            36 => 
+            36 =>
             array (
                 'id' => 289,
                 'continent_iso2' => 'EU',
@@ -537,7 +537,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            37 => 
+            37 =>
             array (
                 'id' => 290,
                 'continent_iso2' => 'NA',
@@ -551,7 +551,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            38 => 
+            38 =>
             array (
                 'id' => 291,
                 'continent_iso2' => 'NA',
@@ -565,7 +565,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            39 => 
+            39 =>
             array (
                 'id' => 292,
                 'continent_iso2' => 'AS',
@@ -579,7 +579,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            40 => 
+            40 =>
             array (
                 'id' => 293,
                 'continent_iso2' => 'AF',
@@ -593,7 +593,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            41 => 
+            41 =>
             array (
                 'id' => 294,
                 'continent_iso2' => 'AF',
@@ -607,7 +607,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            42 => 
+            42 =>
             array (
                 'id' => 295,
                 'continent_iso2' => 'AF',
@@ -621,7 +621,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            43 => 
+            43 =>
             array (
                 'id' => 296,
                 'continent_iso2' => 'EU',
@@ -635,7 +635,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            44 => 
+            44 =>
             array (
                 'id' => 297,
                 'continent_iso2' => 'AF',
@@ -649,7 +649,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            45 => 
+            45 =>
             array (
                 'id' => 298,
                 'continent_iso2' => 'OC',
@@ -663,7 +663,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            46 => 
+            46 =>
             array (
                 'id' => 299,
                 'continent_iso2' => 'SA',
@@ -677,7 +677,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            47 => 
+            47 =>
             array (
                 'id' => 300,
                 'continent_iso2' => 'AF',
@@ -691,7 +691,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            48 => 
+            48 =>
             array (
                 'id' => 301,
                 'continent_iso2' => 'AS',
@@ -705,7 +705,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            49 => 
+            49 =>
             array (
                 'id' => 302,
                 'continent_iso2' => 'SA',
@@ -719,7 +719,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            50 => 
+            50 =>
             array (
                 'id' => 303,
                 'continent_iso2' => 'NA',
@@ -733,7 +733,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            51 => 
+            51 =>
             array (
                 'id' => 304,
                 'continent_iso2' => 'EU',
@@ -747,7 +747,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            52 => 
+            52 =>
             array (
                 'id' => 305,
                 'continent_iso2' => 'NA',
@@ -761,7 +761,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            53 => 
+            53 =>
             array (
                 'id' => 306,
                 'continent_iso2' => 'AF',
@@ -775,7 +775,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            54 => 
+            54 =>
             array (
                 'id' => 307,
                 'continent_iso2' => 'NA',
@@ -789,7 +789,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            55 => 
+            55 =>
             array (
                 'id' => 308,
                 'continent_iso2' => 'OC',
@@ -803,7 +803,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            56 => 
+            56 =>
             array (
                 'id' => 309,
                 'continent_iso2' => 'EU',
@@ -817,7 +817,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            57 => 
+            57 =>
             array (
                 'id' => 310,
                 'continent_iso2' => 'EU',
@@ -831,7 +831,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            58 => 
+            58 =>
             array (
                 'id' => 311,
                 'continent_iso2' => 'EU',
@@ -845,7 +845,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            59 => 
+            59 =>
             array (
                 'id' => 312,
                 'continent_iso2' => 'AF',
@@ -859,7 +859,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            60 => 
+            60 =>
             array (
                 'id' => 313,
                 'continent_iso2' => 'EU',
@@ -873,7 +873,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            61 => 
+            61 =>
             array (
                 'id' => 314,
                 'continent_iso2' => 'NA',
@@ -887,7 +887,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            62 => 
+            62 =>
             array (
                 'id' => 315,
                 'continent_iso2' => 'NA',
@@ -901,7 +901,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            63 => 
+            63 =>
             array (
                 'id' => 316,
                 'continent_iso2' => 'AF',
@@ -915,7 +915,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            64 => 
+            64 =>
             array (
                 'id' => 317,
                 'continent_iso2' => 'SA',
@@ -929,7 +929,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            65 => 
+            65 =>
             array (
                 'id' => 318,
                 'continent_iso2' => 'EU',
@@ -943,7 +943,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            66 => 
+            66 =>
             array (
                 'id' => 319,
                 'continent_iso2' => 'AF',
@@ -957,7 +957,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            67 => 
+            67 =>
             array (
                 'id' => 320,
                 'continent_iso2' => 'AF',
@@ -971,7 +971,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            68 => 
+            68 =>
             array (
                 'id' => 321,
                 'continent_iso2' => 'AF',
@@ -985,7 +985,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            69 => 
+            69 =>
             array (
                 'id' => 322,
                 'continent_iso2' => 'EU',
@@ -999,7 +999,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            70 => 
+            70 =>
             array (
                 'id' => 323,
                 'continent_iso2' => 'AF',
@@ -1013,7 +1013,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            71 => 
+            71 =>
             array (
                 'id' => 324,
                 'continent_iso2' => 'EU',
@@ -1027,7 +1027,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            72 => 
+            72 =>
             array (
                 'id' => 325,
                 'continent_iso2' => 'OC',
@@ -1041,7 +1041,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            73 => 
+            73 =>
             array (
                 'id' => 326,
                 'continent_iso2' => 'SA',
@@ -1055,7 +1055,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            74 => 
+            74 =>
             array (
                 'id' => 327,
                 'continent_iso2' => 'OC',
@@ -1069,7 +1069,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            75 => 
+            75 =>
             array (
                 'id' => 328,
                 'continent_iso2' => 'EU',
@@ -1083,7 +1083,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            76 => 
+            76 =>
             array (
                 'id' => 329,
                 'continent_iso2' => 'EU',
@@ -1097,7 +1097,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            77 => 
+            77 =>
             array (
                 'id' => 330,
                 'continent_iso2' => 'AF',
@@ -1111,7 +1111,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            78 => 
+            78 =>
             array (
                 'id' => 331,
                 'continent_iso2' => 'EU',
@@ -1125,7 +1125,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            79 => 
+            79 =>
             array (
                 'id' => 332,
                 'continent_iso2' => 'NA',
@@ -1139,7 +1139,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            80 => 
+            80 =>
             array (
                 'id' => 333,
                 'continent_iso2' => 'AS',
@@ -1153,7 +1153,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            81 => 
+            81 =>
             array (
                 'id' => 334,
                 'continent_iso2' => 'SA',
@@ -1167,7 +1167,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            82 => 
+            82 =>
             array (
                 'id' => 335,
                 'continent_iso2' => 'EU',
@@ -1181,7 +1181,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            83 => 
+            83 =>
             array (
                 'id' => 336,
                 'continent_iso2' => 'AF',
@@ -1195,7 +1195,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            84 => 
+            84 =>
             array (
                 'id' => 337,
                 'continent_iso2' => 'EU',
@@ -1209,7 +1209,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            85 => 
+            85 =>
             array (
                 'id' => 338,
                 'continent_iso2' => 'NA',
@@ -1223,7 +1223,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            86 => 
+            86 =>
             array (
                 'id' => 339,
                 'continent_iso2' => 'AF',
@@ -1237,7 +1237,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            87 => 
+            87 =>
             array (
                 'id' => 340,
                 'continent_iso2' => 'AF',
@@ -1251,7 +1251,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            88 => 
+            88 =>
             array (
                 'id' => 341,
                 'continent_iso2' => 'NA',
@@ -1265,7 +1265,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            89 => 
+            89 =>
             array (
                 'id' => 342,
                 'continent_iso2' => 'AF',
@@ -1279,7 +1279,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            90 => 
+            90 =>
             array (
                 'id' => 343,
                 'continent_iso2' => 'EU',
@@ -1293,7 +1293,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            91 => 
+            91 =>
             array (
                 'id' => 344,
                 'continent_iso2' => 'AN',
@@ -1307,7 +1307,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            92 => 
+            92 =>
             array (
                 'id' => 345,
                 'continent_iso2' => 'NA',
@@ -1321,7 +1321,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            93 => 
+            93 =>
             array (
                 'id' => 346,
                 'continent_iso2' => 'OC',
@@ -1335,7 +1335,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            94 => 
+            94 =>
             array (
                 'id' => 347,
                 'continent_iso2' => 'AF',
@@ -1349,7 +1349,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            95 => 
+            95 =>
             array (
                 'id' => 348,
                 'continent_iso2' => 'SA',
@@ -1363,7 +1363,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            96 => 
+            96 =>
             array (
                 'id' => 349,
                 'continent_iso2' => 'AS',
@@ -1377,7 +1377,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            97 => 
+            97 =>
             array (
                 'id' => 350,
                 'continent_iso2' => 'AN',
@@ -1391,7 +1391,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            98 => 
+            98 =>
             array (
                 'id' => 351,
                 'continent_iso2' => 'NA',
@@ -1405,7 +1405,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            99 => 
+            99 =>
             array (
                 'id' => 352,
                 'continent_iso2' => 'EU',
@@ -1419,7 +1419,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            100 => 
+            100 =>
             array (
                 'id' => 353,
                 'continent_iso2' => 'NA',
@@ -1433,7 +1433,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            101 => 
+            101 =>
             array (
                 'id' => 354,
                 'continent_iso2' => 'EU',
@@ -1447,7 +1447,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            102 => 
+            102 =>
             array (
                 'id' => 355,
                 'continent_iso2' => 'AS',
@@ -1461,7 +1461,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            103 => 
+            103 =>
             array (
                 'id' => 356,
                 'continent_iso2' => 'EU',
@@ -1475,7 +1475,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            104 => 
+            104 =>
             array (
                 'id' => 357,
                 'continent_iso2' => 'AS',
@@ -1489,7 +1489,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            105 => 
+            105 =>
             array (
                 'id' => 358,
                 'continent_iso2' => 'EU',
@@ -1503,7 +1503,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            106 => 
+            106 =>
             array (
                 'id' => 359,
                 'continent_iso2' => 'AS',
@@ -1517,7 +1517,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            107 => 
+            107 =>
             array (
                 'id' => 360,
                 'continent_iso2' => 'AS',
@@ -1531,7 +1531,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            108 => 
+            108 =>
             array (
                 'id' => 361,
                 'continent_iso2' => 'AS',
@@ -1545,7 +1545,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            109 => 
+            109 =>
             array (
                 'id' => 362,
                 'continent_iso2' => 'AS',
@@ -1559,7 +1559,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            110 => 
+            110 =>
             array (
                 'id' => 363,
                 'continent_iso2' => 'EU',
@@ -1573,7 +1573,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            111 => 
+            111 =>
             array (
                 'id' => 364,
                 'continent_iso2' => 'EU',
@@ -1587,7 +1587,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            112 => 
+            112 =>
             array (
                 'id' => 365,
                 'continent_iso2' => 'EU',
@@ -1601,7 +1601,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            113 => 
+            113 =>
             array (
                 'id' => 366,
                 'continent_iso2' => 'NA',
@@ -1615,7 +1615,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            114 => 
+            114 =>
             array (
                 'id' => 367,
                 'continent_iso2' => 'AS',
@@ -1629,7 +1629,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            115 => 
+            115 =>
             array (
                 'id' => 368,
                 'continent_iso2' => 'AS',
@@ -1643,7 +1643,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            116 => 
+            116 =>
             array (
                 'id' => 369,
                 'continent_iso2' => 'AF',
@@ -1657,7 +1657,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            117 => 
+            117 =>
             array (
                 'id' => 370,
                 'continent_iso2' => 'AS',
@@ -1671,7 +1671,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            118 => 
+            118 =>
             array (
                 'id' => 371,
                 'continent_iso2' => 'AS',
@@ -1685,7 +1685,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            119 => 
+            119 =>
             array (
                 'id' => 372,
                 'continent_iso2' => 'OC',
@@ -1699,7 +1699,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            120 => 
+            120 =>
             array (
                 'id' => 373,
                 'continent_iso2' => 'AF',
@@ -1713,7 +1713,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            121 => 
+            121 =>
             array (
                 'id' => 374,
                 'continent_iso2' => 'NA',
@@ -1727,7 +1727,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            122 => 
+            122 =>
             array (
                 'id' => 375,
                 'continent_iso2' => 'AS',
@@ -1741,7 +1741,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            123 => 
+            123 =>
             array (
                 'id' => 376,
                 'continent_iso2' => 'AS',
@@ -1755,7 +1755,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            124 => 
+            124 =>
             array (
                 'id' => 377,
                 'continent_iso2' => 'AS',
@@ -1769,7 +1769,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            125 => 
+            125 =>
             array (
                 'id' => 378,
                 'continent_iso2' => 'NA',
@@ -1783,7 +1783,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            126 => 
+            126 =>
             array (
                 'id' => 379,
                 'continent_iso2' => 'AS',
@@ -1797,7 +1797,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            127 => 
+            127 =>
             array (
                 'id' => 380,
                 'continent_iso2' => 'AS',
@@ -1811,7 +1811,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            128 => 
+            128 =>
             array (
                 'id' => 381,
                 'continent_iso2' => 'AS',
@@ -1825,7 +1825,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            129 => 
+            129 =>
             array (
                 'id' => 382,
                 'continent_iso2' => 'NA',
@@ -1839,7 +1839,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            130 => 
+            130 =>
             array (
                 'id' => 383,
                 'continent_iso2' => 'EU',
@@ -1853,7 +1853,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            131 => 
+            131 =>
             array (
                 'id' => 384,
                 'continent_iso2' => 'AS',
@@ -1867,7 +1867,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            132 => 
+            132 =>
             array (
                 'id' => 385,
                 'continent_iso2' => 'AF',
@@ -1881,7 +1881,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            133 => 
+            133 =>
             array (
                 'id' => 386,
                 'continent_iso2' => 'AF',
@@ -1895,7 +1895,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            134 => 
+            134 =>
             array (
                 'id' => 387,
                 'continent_iso2' => 'EU',
@@ -1909,7 +1909,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            135 => 
+            135 =>
             array (
                 'id' => 388,
                 'continent_iso2' => 'EU',
@@ -1923,7 +1923,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            136 => 
+            136 =>
             array (
                 'id' => 389,
                 'continent_iso2' => 'EU',
@@ -1937,7 +1937,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            137 => 
+            137 =>
             array (
                 'id' => 390,
                 'continent_iso2' => 'AF',
@@ -1951,7 +1951,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            138 => 
+            138 =>
             array (
                 'id' => 391,
                 'continent_iso2' => 'AF',
@@ -1965,7 +1965,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            139 => 
+            139 =>
             array (
                 'id' => 392,
                 'continent_iso2' => 'EU',
@@ -1979,7 +1979,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            140 => 
+            140 =>
             array (
                 'id' => 393,
                 'continent_iso2' => 'EU',
@@ -1993,7 +1993,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            141 => 
+            141 =>
             array (
                 'id' => 394,
                 'continent_iso2' => 'EU',
@@ -2007,7 +2007,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            142 => 
+            142 =>
             array (
                 'id' => 395,
                 'continent_iso2' => 'NA',
@@ -2021,7 +2021,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            143 => 
+            143 =>
             array (
                 'id' => 396,
                 'continent_iso2' => 'AF',
@@ -2035,7 +2035,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            144 => 
+            144 =>
             array (
                 'id' => 397,
                 'continent_iso2' => 'OC',
@@ -2049,7 +2049,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            145 => 
+            145 =>
             array (
                 'id' => 398,
                 'continent_iso2' => 'EU',
@@ -2063,7 +2063,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            146 => 
+            146 =>
             array (
                 'id' => 399,
                 'continent_iso2' => 'AF',
@@ -2077,7 +2077,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            147 => 
+            147 =>
             array (
                 'id' => 400,
                 'continent_iso2' => 'AS',
@@ -2091,7 +2091,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            148 => 
+            148 =>
             array (
                 'id' => 401,
                 'continent_iso2' => 'AS',
@@ -2105,7 +2105,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            149 => 
+            149 =>
             array (
                 'id' => 402,
                 'continent_iso2' => 'AS',
@@ -2119,7 +2119,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            150 => 
+            150 =>
             array (
                 'id' => 403,
                 'continent_iso2' => 'OC',
@@ -2133,7 +2133,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            151 => 
+            151 =>
             array (
                 'id' => 404,
                 'continent_iso2' => 'NA',
@@ -2147,7 +2147,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            152 => 
+            152 =>
             array (
                 'id' => 405,
                 'continent_iso2' => 'AF',
@@ -2161,7 +2161,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            153 => 
+            153 =>
             array (
                 'id' => 406,
                 'continent_iso2' => 'NA',
@@ -2175,7 +2175,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            154 => 
+            154 =>
             array (
                 'id' => 407,
                 'continent_iso2' => 'EU',
@@ -2189,7 +2189,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            155 => 
+            155 =>
             array (
                 'id' => 408,
                 'continent_iso2' => 'AF',
@@ -2203,7 +2203,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            156 => 
+            156 =>
             array (
                 'id' => 409,
                 'continent_iso2' => 'AS',
@@ -2217,7 +2217,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            157 => 
+            157 =>
             array (
                 'id' => 410,
                 'continent_iso2' => 'AF',
@@ -2231,7 +2231,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            158 => 
+            158 =>
             array (
                 'id' => 411,
                 'continent_iso2' => 'NA',
@@ -2245,7 +2245,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            159 => 
+            159 =>
             array (
                 'id' => 412,
                 'continent_iso2' => 'AS',
@@ -2259,7 +2259,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            160 => 
+            160 =>
             array (
                 'id' => 413,
                 'continent_iso2' => 'AF',
@@ -2273,7 +2273,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            161 => 
+            161 =>
             array (
                 'id' => 414,
                 'continent_iso2' => 'AF',
@@ -2287,7 +2287,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            162 => 
+            162 =>
             array (
                 'id' => 415,
                 'continent_iso2' => 'OC',
@@ -2301,7 +2301,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            163 => 
+            163 =>
             array (
                 'id' => 416,
                 'continent_iso2' => 'AF',
@@ -2315,7 +2315,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            164 => 
+            164 =>
             array (
                 'id' => 417,
                 'continent_iso2' => 'OC',
@@ -2329,7 +2329,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            165 => 
+            165 =>
             array (
                 'id' => 418,
                 'continent_iso2' => 'AF',
@@ -2343,7 +2343,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            166 => 
+            166 =>
             array (
                 'id' => 419,
                 'continent_iso2' => 'NA',
@@ -2357,7 +2357,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            167 => 
+            167 =>
             array (
                 'id' => 420,
                 'continent_iso2' => 'EU',
@@ -2371,7 +2371,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            168 => 
+            168 =>
             array (
                 'id' => 421,
                 'continent_iso2' => 'EU',
@@ -2385,7 +2385,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            169 => 
+            169 =>
             array (
                 'id' => 422,
                 'continent_iso2' => 'AS',
@@ -2399,7 +2399,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            170 => 
+            170 =>
             array (
                 'id' => 423,
                 'continent_iso2' => 'OC',
@@ -2413,7 +2413,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            171 => 
+            171 =>
             array (
                 'id' => 424,
                 'continent_iso2' => 'OC',
@@ -2427,7 +2427,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            172 => 
+            172 =>
             array (
                 'id' => 425,
                 'continent_iso2' => 'OC',
@@ -2441,7 +2441,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            173 => 
+            173 =>
             array (
                 'id' => 426,
                 'continent_iso2' => 'AS',
@@ -2455,7 +2455,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            174 => 
+            174 =>
             array (
                 'id' => 427,
                 'continent_iso2' => 'NA',
@@ -2469,7 +2469,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            175 => 
+            175 =>
             array (
                 'id' => 428,
                 'continent_iso2' => 'SA',
@@ -2483,7 +2483,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            176 => 
+            176 =>
             array (
                 'id' => 429,
                 'continent_iso2' => 'OC',
@@ -2497,7 +2497,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            177 => 
+            177 =>
             array (
                 'id' => 430,
                 'continent_iso2' => 'OC',
@@ -2511,7 +2511,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            178 => 
+            178 =>
             array (
                 'id' => 431,
                 'continent_iso2' => 'AS',
@@ -2525,7 +2525,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            179 => 
+            179 =>
             array (
                 'id' => 432,
                 'continent_iso2' => 'AS',
@@ -2539,7 +2539,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            180 => 
+            180 =>
             array (
                 'id' => 433,
                 'continent_iso2' => 'EU',
@@ -2553,7 +2553,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            181 => 
+            181 =>
             array (
                 'id' => 434,
                 'continent_iso2' => 'NA',
@@ -2567,7 +2567,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            182 => 
+            182 =>
             array (
                 'id' => 435,
                 'continent_iso2' => 'OC',
@@ -2581,7 +2581,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            183 => 
+            183 =>
             array (
                 'id' => 436,
                 'continent_iso2' => 'NA',
@@ -2595,7 +2595,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            184 => 
+            184 =>
             array (
                 'id' => 437,
                 'continent_iso2' => 'AS',
@@ -2609,7 +2609,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            185 => 
+            185 =>
             array (
                 'id' => 438,
                 'continent_iso2' => 'EU',
@@ -2623,7 +2623,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            186 => 
+            186 =>
             array (
                 'id' => 439,
                 'continent_iso2' => 'OC',
@@ -2637,7 +2637,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            187 => 
+            187 =>
             array (
                 'id' => 440,
                 'continent_iso2' => 'SA',
@@ -2651,7 +2651,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            188 => 
+            188 =>
             array (
                 'id' => 441,
                 'continent_iso2' => 'AS',
@@ -2665,7 +2665,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            189 => 
+            189 =>
             array (
                 'id' => 442,
                 'continent_iso2' => 'AF',
@@ -2679,7 +2679,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            190 => 
+            190 =>
             array (
                 'id' => 443,
                 'continent_iso2' => 'EU',
@@ -2693,7 +2693,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            191 => 
+            191 =>
             array (
                 'id' => 444,
                 'continent_iso2' => 'EU',
@@ -2707,7 +2707,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            192 => 
+            192 =>
             array (
                 'id' => 445,
                 'continent_iso2' => 'EU',
@@ -2721,7 +2721,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            193 => 
+            193 =>
             array (
                 'id' => 446,
                 'continent_iso2' => 'AF',
@@ -2735,7 +2735,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            194 => 
+            194 =>
             array (
                 'id' => 447,
                 'continent_iso2' => 'AS',
@@ -2749,7 +2749,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            195 => 
+            195 =>
             array (
                 'id' => 448,
                 'continent_iso2' => 'OC',
@@ -2763,7 +2763,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            196 => 
+            196 =>
             array (
                 'id' => 449,
                 'continent_iso2' => 'AF',
@@ -2777,7 +2777,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            197 => 
+            197 =>
             array (
                 'id' => 450,
                 'continent_iso2' => 'AF',
@@ -2791,7 +2791,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            198 => 
+            198 =>
             array (
                 'id' => 451,
                 'continent_iso2' => 'EU',
@@ -2805,7 +2805,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            199 => 
+            199 =>
             array (
                 'id' => 452,
                 'continent_iso2' => 'AS',
@@ -2819,7 +2819,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            200 => 
+            200 =>
             array (
                 'id' => 453,
                 'continent_iso2' => 'AF',
@@ -2833,7 +2833,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            201 => 
+            201 =>
             array (
                 'id' => 454,
                 'continent_iso2' => 'EU',
@@ -2847,7 +2847,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            202 => 
+            202 =>
             array (
                 'id' => 455,
                 'continent_iso2' => 'EU',
@@ -2861,7 +2861,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            203 => 
+            203 =>
             array (
                 'id' => 456,
                 'continent_iso2' => 'EU',
@@ -2875,7 +2875,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            204 => 
+            204 =>
             array (
                 'id' => 457,
                 'continent_iso2' => 'AF',
@@ -2889,7 +2889,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            205 => 
+            205 =>
             array (
                 'id' => 458,
                 'continent_iso2' => 'EU',
@@ -2903,7 +2903,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            206 => 
+            206 =>
             array (
                 'id' => 459,
                 'continent_iso2' => 'AF',
@@ -2917,7 +2917,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            207 => 
+            207 =>
             array (
                 'id' => 460,
                 'continent_iso2' => 'AF',
@@ -2931,7 +2931,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            208 => 
+            208 =>
             array (
                 'id' => 461,
                 'continent_iso2' => 'SA',
@@ -2945,7 +2945,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            209 => 
+            209 =>
             array (
                 'id' => 462,
                 'continent_iso2' => 'AF',
@@ -2959,7 +2959,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            210 => 
+            210 =>
             array (
                 'id' => 463,
                 'continent_iso2' => 'AF',
@@ -2973,7 +2973,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            211 => 
+            211 =>
             array (
                 'id' => 464,
                 'continent_iso2' => 'NA',
@@ -2987,7 +2987,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            212 => 
+            212 =>
             array (
                 'id' => 465,
                 'continent_iso2' => 'NA',
@@ -3001,7 +3001,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            213 => 
+            213 =>
             array (
                 'id' => 466,
                 'continent_iso2' => 'AS',
@@ -3015,7 +3015,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            214 => 
+            214 =>
             array (
                 'id' => 467,
                 'continent_iso2' => 'AF',
@@ -3029,7 +3029,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            215 => 
+            215 =>
             array (
                 'id' => 468,
                 'continent_iso2' => 'NA',
@@ -3043,7 +3043,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            216 => 
+            216 =>
             array (
                 'id' => 469,
                 'continent_iso2' => 'AF',
@@ -3057,7 +3057,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            217 => 
+            217 =>
             array (
                 'id' => 470,
                 'continent_iso2' => 'AN',
@@ -3071,7 +3071,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            218 => 
+            218 =>
             array (
                 'id' => 471,
                 'continent_iso2' => 'AF',
@@ -3085,7 +3085,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            219 => 
+            219 =>
             array (
                 'id' => 472,
                 'continent_iso2' => 'AS',
@@ -3099,7 +3099,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            220 => 
+            220 =>
             array (
                 'id' => 473,
                 'continent_iso2' => 'AS',
@@ -3113,7 +3113,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            221 => 
+            221 =>
             array (
                 'id' => 474,
                 'continent_iso2' => 'OC',
@@ -3127,7 +3127,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            222 => 
+            222 =>
             array (
                 'id' => 475,
                 'continent_iso2' => 'OC',
@@ -3141,7 +3141,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            223 => 
+            223 =>
             array (
                 'id' => 476,
                 'continent_iso2' => 'AS',
@@ -3155,7 +3155,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            224 => 
+            224 =>
             array (
                 'id' => 477,
                 'continent_iso2' => 'AF',
@@ -3169,7 +3169,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            225 => 
+            225 =>
             array (
                 'id' => 478,
                 'continent_iso2' => 'OC',
@@ -3183,7 +3183,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            226 => 
+            226 =>
             array (
                 'id' => 479,
                 'continent_iso2' => 'AS',
@@ -3197,7 +3197,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            227 => 
+            227 =>
             array (
                 'id' => 480,
                 'continent_iso2' => 'NA',
@@ -3211,7 +3211,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            228 => 
+            228 =>
             array (
                 'id' => 481,
                 'continent_iso2' => 'OC',
@@ -3225,7 +3225,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            229 => 
+            229 =>
             array (
                 'id' => 482,
                 'continent_iso2' => 'AS',
@@ -3239,7 +3239,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            230 => 
+            230 =>
             array (
                 'id' => 483,
                 'continent_iso2' => 'AF',
@@ -3253,7 +3253,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            231 => 
+            231 =>
             array (
                 'id' => 484,
                 'continent_iso2' => 'EU',
@@ -3267,7 +3267,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            232 => 
+            232 =>
             array (
                 'id' => 485,
                 'continent_iso2' => 'AF',
@@ -3281,7 +3281,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            233 => 
+            233 =>
             array (
                 'id' => 486,
                 'continent_iso2' => 'OC',
@@ -3295,7 +3295,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            234 => 
+            234 =>
             array (
                 'id' => 487,
                 'continent_iso2' => 'NA',
@@ -3309,7 +3309,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            235 => 
+            235 =>
             array (
                 'id' => 488,
                 'continent_iso2' => 'SA',
@@ -3323,7 +3323,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            236 => 
+            236 =>
             array (
                 'id' => 489,
                 'continent_iso2' => 'AS',
@@ -3337,7 +3337,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            237 => 
+            237 =>
             array (
                 'id' => 490,
                 'continent_iso2' => 'EU',
@@ -3351,7 +3351,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            238 => 
+            238 =>
             array (
                 'id' => 491,
                 'continent_iso2' => 'NA',
@@ -3365,7 +3365,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            239 => 
+            239 =>
             array (
                 'id' => 492,
                 'continent_iso2' => 'SA',
@@ -3379,7 +3379,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            240 => 
+            240 =>
             array (
                 'id' => 493,
                 'continent_iso2' => 'NA',
@@ -3393,7 +3393,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            241 => 
+            241 =>
             array (
                 'id' => 494,
                 'continent_iso2' => 'NA',
@@ -3407,7 +3407,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            242 => 
+            242 =>
             array (
                 'id' => 495,
                 'continent_iso2' => 'AS',
@@ -3421,7 +3421,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            243 => 
+            243 =>
             array (
                 'id' => 496,
                 'continent_iso2' => 'OC',
@@ -3435,7 +3435,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            244 => 
+            244 =>
             array (
                 'id' => 497,
                 'continent_iso2' => 'OC',
@@ -3449,7 +3449,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            245 => 
+            245 =>
             array (
                 'id' => 498,
                 'continent_iso2' => 'OC',
@@ -3463,7 +3463,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            246 => 
+            246 =>
             array (
                 'id' => 499,
                 'continent_iso2' => 'EU',
@@ -3477,7 +3477,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            247 => 
+            247 =>
             array (
                 'id' => 500,
                 'continent_iso2' => 'AS',
@@ -3491,7 +3491,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            248 => 
+            248 =>
             array (
                 'id' => 501,
                 'continent_iso2' => 'AF',
@@ -3505,7 +3505,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            249 => 
+            249 =>
             array (
                 'id' => 502,
                 'continent_iso2' => 'AF',
@@ -3519,7 +3519,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            250 => 
+            250 =>
             array (
                 'id' => 503,
                 'continent_iso2' => 'AF',
@@ -3533,7 +3533,7 @@ class RegionCountryTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            251 => 
+            251 =>
             array (
                 'id' => 504,
                 'continent_iso2' => 'AF',
@@ -3548,7 +3548,7 @@ class RegionCountryTableSeeder extends Seeder
                 'updated_at' => '2021-08-07 14:59:44',
             ),
         ));
-        
-        
+
+
     }
 }

@@ -13,9 +13,9 @@ class InitDatabase extends Migration
      */
     public function up()
     {
-        $file = storage_path('install/sql/strongshop.v1.0.sql');
-        $sql = file_get_contents($file);
-        DB::unprepared($sql);
+//        $file = storage_path('install/sql/strongshop.v1.0.sql');
+//        $sql = file_get_contents($file);
+//        DB::unprepared($sql);
     }
 
     /**

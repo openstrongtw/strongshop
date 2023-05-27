@@ -14,12 +14,12 @@ class WebconfigTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('webconfig')->delete();
-        
+
         \DB::table('webconfig')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'key' => 'notice',
@@ -27,7 +27,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-07 11:31:30',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'key' => 'store_title',
@@ -35,7 +35,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-07 11:32:23',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'key' => 'meta_keywords',
@@ -43,7 +43,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-07 11:33:26',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'key' => 'meta_description',
@@ -51,7 +51,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-07 11:35:12',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 14,
                 'key' => 'MAIL_HOST',
@@ -59,7 +59,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-13 10:35:26',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 15,
                 'key' => 'MAIL_PORT',
@@ -67,7 +67,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-13 10:35:26',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 24,
                 'key' => 'MAIL_REPLYTO_NAME',
@@ -75,7 +75,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-13 11:26:01',
                 'updated_at' => '2021-08-19 18:10:28',
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 26,
                 'key' => 'notice_email_signed',
@@ -83,7 +83,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-13 13:09:04',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 27,
                 'key' => 'notice_email_created_order',
@@ -91,7 +91,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-13 13:09:04',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 28,
                 'key' => 'notice_email_paid_order',
@@ -99,7 +99,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-13 13:09:04',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 29,
                 'key' => 'notice_email_shipped_order',
@@ -107,7 +107,7 @@ class WebconfigTableSeeder extends Seeder
                 'created_at' => '2021-08-13 13:09:04',
                 'updated_at' => '2021-08-19 18:10:27',
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 30,
                 'key' => 'notice_email_closed_order',
@@ -116,7 +116,7 @@ class WebconfigTableSeeder extends Seeder
                 'updated_at' => '2021-08-19 18:10:27',
             ),
         ));
-        
-        
+
+
     }
 }

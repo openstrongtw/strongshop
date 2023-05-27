@@ -108,7 +108,7 @@ class Category extends Model
         }
         $this->attributes['name'] = $value;
     }
-    
+
     public function getNameAttribute($value)
     {
         if (!$value)
@@ -144,11 +144,16 @@ class Category extends Model
         }
         if (!$value)
         {
-            
+
             return $value;
         }
         $lang_front = config('strongshop.defaultLanguage');
-        $arr = json_decode($value, true);
+        # 20230527 修正
+        if (is_array($value)) {
+            $arr = $value;
+        } else {
+            $arr = json_decode($value, true);
+        }
         if (!$arr)
         {
             return $value;

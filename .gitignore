@@ -4,6 +4,7 @@
 /public/.well-known
 /public/sitemap.xml
 /public/nginx.htaccess
+/public/vendor/telescope
 /storage/*.key
 /vendor
 .env

@@ -14,12 +14,12 @@ class ArticleTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('article')->delete();
-        
+
         \DB::table('article')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'category_id' => 30,
@@ -37,7 +37,7 @@ class ArticleTableSeeder extends Seeder
                 'meta_description' => '',
                 'origin' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'category_id' => 30,
@@ -55,7 +55,7 @@ class ArticleTableSeeder extends Seeder
                 'meta_description' => '',
                 'origin' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'category_id' => 30,
@@ -74,7 +74,7 @@ class ArticleTableSeeder extends Seeder
                 'origin' => NULL,
             ),
         ));
-        
-        
+
+
     }
 }

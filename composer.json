@@ -30,7 +30,7 @@
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.2",
         "mews/captcha": "^3.0",
-        "openstrong/laravel-strongadmin": "^2.1",
+        "openstrongtw/laravel-strongadmin": "dev-modify",
         "overtrue/laravel-filesystem-qiniu": "^2.0",
         "paypal/rest-api-sdk-php": "^1.0",
         "tamayo/laravel-scout-elastic": "^8.1"

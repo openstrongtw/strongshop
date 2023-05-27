@@ -14,12 +14,12 @@ class RegionContinentTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('region_continent')->delete();
-        
+
         \DB::table('region_continent')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'iso2' => 'AS',
@@ -28,7 +28,7 @@ class RegionContinentTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'iso2' => 'EU',
@@ -37,7 +37,7 @@ class RegionContinentTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'iso2' => 'AF',
@@ -46,7 +46,7 @@ class RegionContinentTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'iso2' => 'OC',
@@ -55,7 +55,7 @@ class RegionContinentTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 5,
                 'iso2' => 'AN',
@@ -64,7 +64,7 @@ class RegionContinentTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 6,
                 'iso2' => 'NA',
@@ -73,7 +73,7 @@ class RegionContinentTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 7,
                 'iso2' => 'SA',
@@ -83,7 +83,7 @@ class RegionContinentTableSeeder extends Seeder
                 'updated_at' => '2021-08-07 10:37:54',
             ),
         ));
-        
-        
+
+
     }
 }
