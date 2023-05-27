@@ -16,7 +16,7 @@ class StrongAdminMenuSeeder extends Seeder
         //strongstrongadmin_menu
         $conn = config('strongadmin.storage.database.connection');
         $table_prefix = config("database.connections.{$conn}.prefix");
-        \DB::connection($this->connection)->unprepared(<<<EOL
+        \DB::connection($conn)->unprepared(<<<EOL
 TRUNCATE TABLE `{$table_prefix}strongadmin_menu`;
 INSERT INTO `{$table_prefix}strongadmin_menu` (`id`, `level`, `parent_id`, `name`, `route_url`, `status`, `sort`, `is_hidden_list`, `created_at`, `updated_at`, `delete_allow`) VALUES (1, 1, 0, '許可權管理', NULL, 1, 2001, 0, '2021-01-06 03:37:40', '2021-05-21 20:10:57', 2);
 INSERT INTO `{$table_prefix}strongadmin_menu` (`id`, `level`, `parent_id`, `name`, `route_url`, `status`, `sort`, `is_hidden_list`, `created_at`, `updated_at`, `delete_allow`) VALUES (2, 2, 1, '菜單管理', 'strongadmin/adminMenu/index', 1, 200, 0, '2021-01-06 03:38:18', '2021-09-22 14:47:43', 2);
