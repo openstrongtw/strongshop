@@ -8,7 +8,7 @@ StrongShop 是基於 PHP Laravel 框架開發的一款 Web 商城系統。<br/>
 遵循 BSD-3-Clause 開源協議，免費商用。支援多語言，多貨幣，多種國際配送方式。PayPal 支付，國際信用卡支付。PC Web 端和移動端自適應。
 
 ## 系統特點
-- 基於 PHP Laravel6 框架開發
+- 基於 PHP Laravel10 框架開發
 - 遵循 BSD-3-Clause 開源協議，免費商用
 - 支援多語言，多貨幣，多種國際配送方式
 - PayPal 支付，國際信用卡支付
