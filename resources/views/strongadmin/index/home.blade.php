@@ -52,7 +52,7 @@
                     <!-- 左側導航區域（可配合layui已有的垂直導航） -->
                     <ul class="layui-nav layui-nav-tree" style="min-height: 1000px;">
                         @foreach($rows as $row)
-                        <!--預設展開菜單 請追加樣式 「layui-nav-itemed」-->
+                        <!--預設展開選單 請追加樣式 「layui-nav-itemed」-->
                         <li class="layui-nav-item">
                             <a href="javascript:;">{{$row->name}}</a>
                             <dl class="layui-nav-child">

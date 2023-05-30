@@ -236,7 +236,7 @@
     var that = this,d = obj.data;
     console.log(d)
     if(obj.event === 'more'){
-        //更多下拉菜單
+        //更多下拉選單
         var dataOp = [];
         if(d.order_status === 10 || d.order_status === 13 || d.order_status === 14){
             dataOp = dataOp.concat([
