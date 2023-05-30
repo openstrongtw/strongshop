@@ -63,7 +63,7 @@ class PaypalController extends Controller
         $cancel_url = route('home');
         $return_url = route('paypal.return');
         $notify_url = config('strongshop.payment.paypal.notify_url') ?: route('paypal.notify');
-        //收款賬號
+        //收款帳號
         $business = $model->more['business'] ?? config('strongshop.payment.paypal.business');
         //預設設定結算貨幣
         $defaultCurrencyPay = isset($model->more['currency']) || $model->more['currency'] == null ? $model->more['currency'] : config('strongshop.defaultCurrencyPay');

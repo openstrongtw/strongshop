@@ -44,10 +44,10 @@
                 </div>
             </div>
             <div class="layui-form-item">
-                <label class="layui-form-label st-form-input-required">收款賬號</label>
+                <label class="layui-form-label st-form-input-required">收款帳號</label>
                 <div class="layui-input-block">
                     <input type="text" name="more[business]" value="{{$model->more['business'] ?? ''}}" autocomplete="off" placeholder="" class="layui-input">
-                    <div class="layui-word-aux st-form-tip layui-show">沙盒測試環境賬號：sb-nq75t7063330@business.example.com</div>
+                    <div class="layui-word-aux st-form-tip layui-show">沙盒測試環境帳號：sb-nq75t7063330@business.example.com</div>
                 </div>
             </div>
             <div class="layui-form-item">
@@ -71,7 +71,7 @@
                         <option value="sandbox" @if(isset($model->more['env']) && $model->more['env']=='sandbox') selected @endif > Sandbox 沙盒測試環境 </option>
                         <option value="live" @if(isset($model->more['env']) && $model->more['env']=='live') selected @endif > 正式環境 </option>
                     </select>
-                    <div class="layui-word-aux st-form-tip layui-show">如果是 正式環境，請修改`收款賬號`為正式商戶收款賬號</div>
+                    <div class="layui-word-aux st-form-tip layui-show">如果是 正式環境，請修改`收款帳號`為正式商戶收款帳號</div>
                 </div>
             </div>
         </div>

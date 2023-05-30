@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="layui-form-item">
-                            <label class="layui-form-label">郵箱賬號</label>
+                            <label class="layui-form-label">郵箱帳號</label>
                             <div class="layui-input-block">
                                 <input type="text" name="MAIL_USERNAME" value="{{$data['MAIL_USERNAME'] ?? ''}}" autocomplete="off" placeholder="" class="layui-input">
                             </div>

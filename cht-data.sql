@@ -4956,7 +4956,7 @@ INSERT INTO `strongadmin_log` VALUES (9, '/admin/product/update', '[更新成功
 INSERT INTO `strongadmin_log` VALUES (10, '/admin/shippingOptionConfig/update', '[更新成功][配送費用公式][id:133]', NULL, NULL, 1, '2021-08-08 13:29:31', '2021-08-08 13:29:31');
 INSERT INTO `strongadmin_log` VALUES (11, '/admin/user/feedback/update', '[更新成功][意見反饋表][id:1]', NULL, NULL, 1, '2021-08-08 13:32:49', '2021-08-08 13:32:49');
 INSERT INTO `strongadmin_log` VALUES (12, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-08-08 13:51:25', '2021-08-08 13:51:25');
-INSERT INTO `strongadmin_log` VALUES (13, '/admin/adminUser/create', '[建立成功][賬號管理][id:19]', NULL, NULL, 1, '2021-08-08 13:51:48', '2021-08-08 13:51:48');
+INSERT INTO `strongadmin_log` VALUES (13, '/admin/adminUser/create', '[建立成功][帳號管理][id:19]', NULL, NULL, 1, '2021-08-08 13:51:48', '2021-08-08 13:51:48');
 INSERT INTO `strongadmin_log` VALUES (14, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-08-08 13:52:02', '2021-08-08 13:52:02');
 
 INSERT INTO `strongadmin_log` VALUES (15, '/admin/adminMenu/update', '[選單管理][更新成功][id:1]', NULL, NULL, 19, '2021-08-08 13:52:24', '2021-08-08 13:52:24');
@@ -5076,7 +5076,7 @@ INSERT INTO `strongadmin_log` VALUES (128, '/admin/paymentOption/update', '[更�
 INSERT INTO `strongadmin_log` VALUES (129, '/admin/paymentOption/update', '[更新成功][支付方式][id:1]', NULL, NULL, 1, '2021-08-21 09:42:11', '2021-08-21 09:42:11');
 INSERT INTO `strongadmin_log` VALUES (130, '/admin/paymentOption/update', '[更新成功][支付方式][id:1]', NULL, NULL, 1, '2021-08-21 09:47:27', '2021-08-21 09:47:27');
 INSERT INTO `strongadmin_log` VALUES (131, '/admin/login', '登錄成功:admin', NULL, NULL, 1, '2021-09-01 12:59:02', '2021-09-01 12:59:02');
-INSERT INTO `strongadmin_log` VALUES (132, '/admin/adminUser/update', '[更新成功][賬號管理][id:1]', NULL, NULL, 1, '2021-09-01 12:59:50', '2021-09-01 12:59:50');
+INSERT INTO `strongadmin_log` VALUES (132, '/admin/adminUser/update', '[更新成功][帳號管理][id:1]', NULL, NULL, 1, '2021-09-01 12:59:50', '2021-09-01 12:59:50');
 INSERT INTO `strongadmin_log` VALUES (133, '/admin/login', '登錄成功:admin', NULL, NULL, 1, '2021-09-01 13:00:23', '2021-09-01 13:00:23');
 INSERT INTO `strongadmin_log` VALUES (134, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-09-01 13:00:54', '2021-09-01 13:00:54');
 INSERT INTO `strongadmin_log` VALUES (135, '/admin/order/confirm/paid', '[確認付款][訂單管理]『id:\"7\"』', NULL, NULL, 19, '2021-09-01 13:01:41', '2021-09-01 13:01:41');
@@ -5929,7 +5929,7 @@ INSERT INTO `strongadmin_menu` VALUES (10, 3, 8, '檢視', 'strongadmin/product/
 INSERT INTO `strongadmin_menu` VALUES (11, 3, 8, '新增', 'strongadmin/product/create', 1, 200, '2021-01-06 05:08:02', '2021-09-22 14:47:44', 1);
 INSERT INTO `strongadmin_menu` VALUES (12, 3, 8, '更新', 'strongadmin/product/update', 1, 200, '2021-01-06 05:08:18', '2021-09-22 14:47:44', 1);
 INSERT INTO `strongadmin_menu` VALUES (13, 3, 8, '刪除', 'strongadmin/product/destroy', 1, 200, '2021-01-06 05:08:37', '2021-09-22 14:47:44', 1);
-INSERT INTO `strongadmin_menu` VALUES (14, 2, 1, '賬號管理', 'strongadmin/adminUser/index', 1, 200, '2021-01-06 05:21:14', '2021-09-22 14:47:44', 1);
+INSERT INTO `strongadmin_menu` VALUES (14, 2, 1, '帳號管理', 'strongadmin/adminUser/index', 1, 200, '2021-01-06 05:21:14', '2021-09-22 14:47:44', 1);
 INSERT INTO `strongadmin_menu` VALUES (15, 3, 14, '檢視', 'strongadmin/adminUser/index', 1, 200, '2021-01-06 05:22:05', '2021-09-22 14:47:44', 1);
 INSERT INTO `strongadmin_menu` VALUES (16, 3, 14, '更新', 'strongadmin/adminUser/update', 1, 200, '2021-01-06 05:22:45', '2021-09-22 14:47:44', 1);
 INSERT INTO `strongadmin_menu` VALUES (17, 3, 14, '刪除', 'strongadmin/adminUser/destroy', 1, 200, '2021-01-06 07:08:39', '2021-09-22 14:47:44', 1);
@@ -6463,4 +6463,4 @@ INSERT INTO `article` VALUES (2, 30, '{\"en\":\"About Us\",\"zh-CN\":\"\\u5173\\
 INSERT INTO `article` VALUES (3, 30, '{\"en\":\"Delivery\",\"zh-CN\":\"\\u53d1\\u8d27\"}', 'delivery', '', '{\"en\":\"<p>delivery<\\/p>\",\"zh-CN\":\"<p>\\u53d1\\u8d27\\u53d1\\u8d27\\u53d1\\u8d27\\u53d1\\u8d27<br\\/><\\/p>\"}', 'StrongShop', 1, 200, '2022-02-10 16:58:41', '2022-02-10 16:59:08', NULL, '', '', NULL);
 
 -- v1.5.4
-INSERT INTO `payment_option` VALUES (2, 'Cash On Delivery', '這是貨到付款，收到貨后請打款到賬號：xx銀行 411838274234', 'paondelivery', 1, '{\"env\": \"sandbox\", \"rate\": null, \"business\": \"abc\", \"currency\": null}', '2022-04-13 09:56:38', '2022-04-13 09:56:38');
+INSERT INTO `payment_option` VALUES (2, 'Cash On Delivery', '這是貨到付款，收到貨后請打款到帳號：xx銀行 411838274234', 'paondelivery', 1, '{\"env\": \"sandbox\", \"rate\": null, \"business\": \"abc\", \"currency\": null}', '2022-04-13 09:56:38', '2022-04-13 09:56:38');
