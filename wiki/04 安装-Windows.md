@@ -33,7 +33,7 @@
 <img style="max-width:650px;" src="/images/install02.jpg" />
 > Tip
 > 專案執行目錄為 strongshop/public
-> 請勾選 同步hosts，如果 hosts 因為本地電腦許可權問題未同步成功，請手動把 `127.0.0.1 www.strongshop.local` 放入 HOSTS 檔案內
+> 請勾選 同步hosts，如果 hosts 因為本地電腦權限問題未同步成功，請手動把 `127.0.0.1 www.strongshop.local` 放入 HOSTS 檔案內
 
 - 偽靜態 （必須配置，否則無法訪問）
 
