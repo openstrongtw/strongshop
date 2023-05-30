@@ -31,7 +31,7 @@
     "Send Password Reset Link": "發送重設密碼鏈接",
     "Server Error": "伺服器錯誤",
     "Service Unavailable": "暫時不提供服務",
-    "This action is unauthorized.": "許可權不足",
+    "This action is unauthorized.": "權限不足",
     "This password reset link will expire in :count minutes.": "這個重設密碼鏈接將會在 :count 分鐘后失效。",
     "Toggle navigation": "切換導航",
     "Too Many Attempts.": "嘗試次數過多",

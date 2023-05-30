@@ -153,7 +153,7 @@ cd /www/wwwroot
     - 下載完整安裝包（如果無法通過git完成下載和安裝，可以使用此方式）
     <a href="/download" target="_blank">點選下載</a>
 
-- 修改專案目錄許可權
+- 修改專案目錄權限
 ```
 chmod 777 -R /www/wwwroot/strongshop/bootstrap
 chmod 777 -R /www/wwwroot/strongshop/storage

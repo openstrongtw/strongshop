@@ -4955,11 +4955,11 @@ INSERT INTO `strongadmin_log` VALUES (8, '/admin/product/update', '[更新成功
 INSERT INTO `strongadmin_log` VALUES (9, '/admin/product/update', '[更新成功][產品表][id:1][sku:dress100-01-s]', '{\"img_photos\": \"[{\\\"src\\\": \\\"/storage/202103/rx0xVDd18IOOT5sxAT7M9QAQUFCczeFJWhAz2p8g.jpg\\\", \\\"title\\\": \\\"s-l1600 (9).jpg\\\", \\\"isImgSpec\\\": true, \\\"isImgCover\\\": true}, {\\\"src\\\": \\\"/storage/202103/79X5gtRNM3YDHatmgrWjCuNdJE1qPRWhRueXyXva.jpg\\\", \\\"title\\\": \\\"s-l1600 (10).jpg\\\", \\\"isImgSpec\\\": false, \\\"isImgCover\\\": false}]\"}', '{\"img_photos\": \"[{\\\"src\\\":\\\"\\\\/storage\\\\/202103\\\\/rx0xVDd18IOOT5sxAT7M9QAQUFCczeFJWhAz2p8g.jpg\\\",\\\"title\\\":\\\"s-l1600 (9).jpg\\\",\\\"isImgCover\\\":true,\\\"isImgSpec\\\":true},{\\\"src\\\":\\\"\\\\/storage\\\\/202103\\\\/79X5gtRNM3YDHatmgrWjCuNdJE1qPRWhRueXyXva.jpg\\\",\\\"title\\\":\\\"s-l1600 (10).jpg\\\",\\\"isImgCover\\\":false,\\\"isImgSpec\\\":false}]\"}', 1, '2021-08-08 13:14:06', '2021-08-08 13:14:06');
 INSERT INTO `strongadmin_log` VALUES (10, '/admin/shippingOptionConfig/update', '[更新成功][配送費用公式][id:133]', NULL, NULL, 1, '2021-08-08 13:29:31', '2021-08-08 13:29:31');
 INSERT INTO `strongadmin_log` VALUES (11, '/admin/user/feedback/update', '[更新成功][意見反饋表][id:1]', NULL, NULL, 1, '2021-08-08 13:32:49', '2021-08-08 13:32:49');
-INSERT INTO `strongadmin_log` VALUES (12, '/admin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-08-08 13:51:25', '2021-08-08 13:51:25');
+INSERT INTO `strongadmin_log` VALUES (12, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-08-08 13:51:25', '2021-08-08 13:51:25');
 INSERT INTO `strongadmin_log` VALUES (13, '/admin/adminUser/create', '[建立成功][賬號管理][id:19]', NULL, NULL, 1, '2021-08-08 13:51:48', '2021-08-08 13:51:48');
 INSERT INTO `strongadmin_log` VALUES (14, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-08-08 13:52:02', '2021-08-08 13:52:02');
 INSERT INTO `strongadmin_log` VALUES (15, '/admin/adminMenu/update', '[菜單管理][更新成功][id:1]', NULL, NULL, 19, '2021-08-08 13:52:24', '2021-08-08 13:52:24');
-INSERT INTO `strongadmin_log` VALUES (16, '/admin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-08-08 13:55:25', '2021-08-08 13:55:25');
+INSERT INTO `strongadmin_log` VALUES (16, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-08-08 13:55:25', '2021-08-08 13:55:25');
 INSERT INTO `strongadmin_log` VALUES (17, '/admin/adminMenu/create', '[菜單管理][新增成功][id:121]', NULL, NULL, 1, '2021-08-08 13:56:21', '2021-08-08 13:56:21');
 INSERT INTO `strongadmin_log` VALUES (18, '/admin/adminMenu/create', '[菜單管理][新增成功][id:122]', NULL, NULL, 1, '2021-08-08 13:56:43', '2021-08-08 13:56:43');
 INSERT INTO `strongadmin_log` VALUES (19, '/admin/adminMenu/create', '[菜單管理][新增成功][id:123]', NULL, NULL, 1, '2021-08-08 13:56:52', '2021-08-08 13:56:52');
@@ -4967,11 +4967,11 @@ INSERT INTO `strongadmin_log` VALUES (20, '/admin/adminMenu/create', '[菜單管
 INSERT INTO `strongadmin_log` VALUES (21, '/admin/adminMenu/create', '[菜單管理][新增成功][id:125]', NULL, NULL, 1, '2021-08-08 13:57:14', '2021-08-08 13:57:14');
 INSERT INTO `strongadmin_log` VALUES (22, '/admin/adminMenu/create', '[菜單管理][新增成功][id:126]', NULL, NULL, 1, '2021-08-08 13:57:23', '2021-08-08 13:57:23');
 INSERT INTO `strongadmin_log` VALUES (23, '/admin/adminMenu/create', '[菜單管理][新增成功][id:127]', NULL, NULL, 1, '2021-08-08 13:57:31', '2021-08-08 13:57:31');
-INSERT INTO `strongadmin_log` VALUES (24, '/admin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-08-08 13:58:08', '2021-08-08 13:58:08');
+INSERT INTO `strongadmin_log` VALUES (24, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-08-08 13:58:08', '2021-08-08 13:58:08');
 INSERT INTO `strongadmin_log` VALUES (25, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-08-08 14:00:15', '2021-08-08 14:00:15');
 INSERT INTO `strongadmin_log` VALUES (26, '/admin/adminMenu/update', '[菜單管理][更新成功][id:41]', NULL, NULL, 1, '2021-08-08 14:03:18', '2021-08-08 14:03:18');
 INSERT INTO `strongadmin_log` VALUES (27, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-08-08 14:04:29', '2021-08-08 14:04:29');
-INSERT INTO `strongadmin_log` VALUES (28, '/admin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-08-08 14:05:33', '2021-08-08 14:05:33');
+INSERT INTO `strongadmin_log` VALUES (28, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-08-08 14:05:33', '2021-08-08 14:05:33');
 INSERT INTO `strongadmin_log` VALUES (29, '/admin/login', '登錄成功:admin', NULL, NULL, 1, '2021-08-11 13:30:32', '2021-08-11 13:30:32');
 INSERT INTO `strongadmin_log` VALUES (30, '/admin/webconfig/save/config', '[網站配置儲存成功][網站設定]', NULL, NULL, 1, '2021-08-11 13:31:00', '2021-08-11 13:31:00');
 INSERT INTO `strongadmin_log` VALUES (31, '/admin/login', '登錄成功:admin', NULL, NULL, 1, '2021-08-11 15:06:28', '2021-08-11 15:06:28');
@@ -5047,7 +5047,7 @@ INSERT INTO `strongadmin_log` VALUES (100, '/admin/login', '登錄成功:admin',
 INSERT INTO `strongadmin_log` VALUES (101, '/admin/webconfig/sendReceiveMailTest', '[測試郵件發送成功][網站設定]', NULL, NULL, 1, '2021-08-19 18:01:20', '2021-08-19 18:01:20');
 INSERT INTO `strongadmin_log` VALUES (102, '/admin/webconfig/save/config', '[網站配置儲存成功][網站設定]', NULL, NULL, 1, '2021-08-19 18:01:24', '2021-08-19 18:01:24');
 INSERT INTO `strongadmin_log` VALUES (103, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-08-19 18:02:03', '2021-08-19 18:02:03');
-INSERT INTO `strongadmin_log` VALUES (104, '/admin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-08-19 18:04:02', '2021-08-19 18:04:02');
+INSERT INTO `strongadmin_log` VALUES (104, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-08-19 18:04:02', '2021-08-19 18:04:02');
 INSERT INTO `strongadmin_log` VALUES (105, '/admin/webconfig/save/config', '[網站配置儲存成功][網站設定]', NULL, NULL, 19, '2021-08-19 18:04:15', '2021-08-19 18:04:15');
 INSERT INTO `strongadmin_log` VALUES (106, '/admin/webconfig/save/config', '[網站配置儲存成功][網站設定]', NULL, NULL, 1, '2021-08-19 18:06:25', '2021-08-19 18:06:25');
 INSERT INTO `strongadmin_log` VALUES (107, '/admin/webconfig/save/config', '[網站配置儲存成功][網站設定]', NULL, NULL, 1, '2021-08-19 18:10:17', '2021-08-19 18:10:17');
@@ -5064,7 +5064,7 @@ INSERT INTO `strongadmin_log` VALUES (117, '/admin/adminMenu/create', '[菜單�
 INSERT INTO `strongadmin_log` VALUES (118, '/admin/adminMenu/create', '[菜單管理][新增成功][id:129]', NULL, NULL, 1, '2021-08-19 18:17:49', '2021-08-19 18:17:49');
 INSERT INTO `strongadmin_log` VALUES (119, '/admin/adminRole/update', '[角色表][更新成功][id:2]', NULL, NULL, 1, '2021-08-19 18:18:51', '2021-08-19 18:18:51');
 INSERT INTO `strongadmin_log` VALUES (120, '/admin/adminRole/update', '[角色表][更新成功][id:1]', NULL, NULL, 1, '2021-08-19 18:19:37', '2021-08-19 18:19:37');
-INSERT INTO `strongadmin_log` VALUES (121, '/admin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-08-19 18:20:01', '2021-08-19 18:20:01');
+INSERT INTO `strongadmin_log` VALUES (121, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-08-19 18:20:01', '2021-08-19 18:20:01');
 INSERT INTO `strongadmin_log` VALUES (122, '/admin/user/update', '[更新成功][會員表][id:1]', NULL, NULL, 1, '2021-08-20 17:59:05', '2021-08-20 17:59:05');
 INSERT INTO `strongadmin_log` VALUES (123, '/admin/user/destroy', '[刪除成功][會員表]『id:[\"2\"]』', NULL, NULL, 1, '2021-08-20 17:59:18', '2021-08-20 17:59:18');
 INSERT INTO `strongadmin_log` VALUES (124, '/admin/order/confirm/done', '[確認完成][訂單管理]『id:\"3\"』', NULL, NULL, 1, '2021-08-20 18:01:26', '2021-08-20 18:01:26');
@@ -5552,17 +5552,17 @@ INSERT INTO `strongadmin_log` VALUES (605, '/admin/login', '登錄成功:demo', 
 INSERT INTO `strongadmin_log` VALUES (606, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-09-07 18:24:26', '2021-09-07 18:24:26');
 INSERT INTO `strongadmin_log` VALUES (607, '/admin/login', '登錄密碼錯誤：admin', NULL, NULL, 0, '2021-09-07 18:25:22', '2021-09-07 18:25:22');
 INSERT INTO `strongadmin_log` VALUES (608, '/admin/login', '登錄密碼錯誤：admin', NULL, NULL, 0, '2021-09-07 18:25:28', '2021-09-07 18:25:28');
-INSERT INTO `strongadmin_log` VALUES (609, '/admin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-09-07 18:25:30', '2021-09-07 18:25:30');
+INSERT INTO `strongadmin_log` VALUES (609, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-09-07 18:25:30', '2021-09-07 18:25:30');
 INSERT INTO `strongadmin_log` VALUES (610, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-09-07 18:25:44', '2021-09-07 18:25:44');
 INSERT INTO `strongadmin_log` VALUES (611, '/admin/adminMenu/create', '[菜單管理][新增成功][id:130]', NULL, NULL, 1, '2021-09-07 18:26:28', '2021-09-07 18:26:28');
 INSERT INTO `strongadmin_log` VALUES (612, '/admin/adminMenu/create', '[菜單管理][新增成功][id:131]', NULL, NULL, 1, '2021-09-07 18:27:03', '2021-09-07 18:27:03');
-INSERT INTO `strongadmin_log` VALUES (613, '/admin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-09-07 18:28:39', '2021-09-07 18:28:39');
+INSERT INTO `strongadmin_log` VALUES (613, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-09-07 18:28:39', '2021-09-07 18:28:39');
 INSERT INTO `strongadmin_log` VALUES (614, '/admin/adminMenu/update', '[菜單管理][更新成功][id:130]', NULL, NULL, 1, '2021-09-07 18:28:52', '2021-09-07 18:28:52');
 INSERT INTO `strongadmin_log` VALUES (615, '/admin/adminMenu/create', '[菜單管理][新增成功][id:132]', NULL, NULL, 1, '2021-09-07 18:29:55', '2021-09-07 18:29:55');
 INSERT INTO `strongadmin_log` VALUES (616, '/admin/adminMenu/create', '[菜單管理][新增成功][id:133]', NULL, NULL, 1, '2021-09-07 18:30:16', '2021-09-07 18:30:16');
 INSERT INTO `strongadmin_log` VALUES (617, '/admin/adminMenu/create', '[菜單管理][新增成功][id:134]', NULL, NULL, 1, '2021-09-07 18:30:30', '2021-09-07 18:30:30');
 INSERT INTO `strongadmin_log` VALUES (618, '/admin/adminMenu/create', '[菜單管理][新增成功][id:135]', NULL, NULL, 1, '2021-09-07 18:30:47', '2021-09-07 18:30:47');
-INSERT INTO `strongadmin_log` VALUES (619, '/admin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-09-07 18:31:03', '2021-09-07 18:31:03');
+INSERT INTO `strongadmin_log` VALUES (619, '/admin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-09-07 18:31:03', '2021-09-07 18:31:03');
 INSERT INTO `strongadmin_log` VALUES (620, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-09-07 20:02:46', '2021-09-07 20:02:46');
 INSERT INTO `strongadmin_log` VALUES (621, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-09-07 20:07:08', '2021-09-07 20:07:08');
 INSERT INTO `strongadmin_log` VALUES (622, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-09-07 20:17:31', '2021-09-07 20:17:31');
@@ -5769,7 +5769,7 @@ INSERT INTO `strongadmin_log` VALUES (823, '/admin/login', '登錄成功:demo', 
 INSERT INTO `strongadmin_log` VALUES (824, '/admin/login', '登錄成功:demo', NULL, NULL, 19, '2021-09-22 13:11:31', '2021-09-22 13:11:31');
 INSERT INTO `strongadmin_log` VALUES (825, '/strongadmin/login', '登錄密碼錯誤：admin', NULL, NULL, 0, '2021-09-22 15:19:59', '2021-09-22 15:19:59');
 INSERT INTO `strongadmin_log` VALUES (826, '/strongadmin/login', '登錄成功:admin', NULL, NULL, 1, '2021-09-22 15:21:15', '2021-09-22 15:21:15');
-INSERT INTO `strongadmin_log` VALUES (827, '/strongadmin/adminRole/assignPermissions', '[角色表][分配許可權]『id:2』', NULL, NULL, 1, '2021-09-22 15:22:33', '2021-09-22 15:22:33');
+INSERT INTO `strongadmin_log` VALUES (827, '/strongadmin/adminRole/assignPermissions', '[角色表][分配權限]『id:2』', NULL, NULL, 1, '2021-09-22 15:22:33', '2021-09-22 15:22:33');
 INSERT INTO `strongadmin_log` VALUES (828, '/strongadmin/adminMenu/update', '[菜單管理][更新成功][id:41]', NULL, NULL, 1, '2021-09-22 15:31:12', '2021-09-22 15:31:12');
 INSERT INTO `strongadmin_log` VALUES (829, '/strongadmin/adminMenu/update', '[菜單管理][更新成功][id:41]', NULL, NULL, 1, '2021-09-22 15:32:56', '2021-09-22 15:32:56');
 INSERT INTO `strongadmin_log` VALUES (830, '/strongadmin/user/feedback/update', '[更新成功][意見反饋表][id:1]', NULL, NULL, 1, '2021-09-22 15:42:05', '2021-09-22 15:42:05');
@@ -5916,7 +5916,7 @@ CREATE TABLE `strongadmin_menu`  (
 -- ----------------------------
 -- Records of st_strongadmin_menu
 -- ----------------------------
-INSERT INTO `strongadmin_menu` VALUES (1, 1, 0, '許可權管理', NULL, 1, 2001, '2021-01-06 03:37:40', '2021-05-21 20:10:57', 2);
+INSERT INTO `strongadmin_menu` VALUES (1, 1, 0, '權限管理', NULL, 1, 2001, '2021-01-06 03:37:40', '2021-05-21 20:10:57', 2);
 INSERT INTO `strongadmin_menu` VALUES (2, 2, 1, '菜單管理', 'strongadmin/adminMenu/index', 1, 200, '2021-01-06 03:38:18', '2021-09-22 14:47:43', 2);
 INSERT INTO `strongadmin_menu` VALUES (3, 3, 2, '列表檢視', 'strongadmin/adminMenu/index', 1, 200, '2021-01-06 04:50:41', '2021-09-22 14:47:43', 2);
 INSERT INTO `strongadmin_menu` VALUES (4, 3, 2, '新增', 'strongadmin/adminMenu/create', 1, 200, '2021-01-06 04:51:07', '2021-09-22 14:47:43', 2);
@@ -5940,7 +5940,7 @@ INSERT INTO `strongadmin_menu` VALUES (22, 3, 18, '刪除', 'strongadmin/adminRo
 INSERT INTO `strongadmin_menu` VALUES (23, 2, 1, '操作日誌', 'strongadmin/adminLog/index', 1, 200, '2021-01-07 13:40:48', '2021-09-22 14:47:44', 2);
 INSERT INTO `strongadmin_menu` VALUES (24, 3, 23, '刪除', 'strongadmin/adminLog/destroy', 1, 200, '2021-01-07 13:41:44', '2021-09-22 14:47:44', 2);
 INSERT INTO `strongadmin_menu` VALUES (25, 3, 23, '檢視', 'strongadmin/adminLog/index', 1, 200, '2021-01-08 02:27:07', '2021-09-22 14:47:44', 2);
-INSERT INTO `strongadmin_menu` VALUES (26, 3, 18, '分配許可權', 'strongadmin/adminRole/assignPermissions', 1, 200, '2021-01-08 13:08:33', '2021-09-22 14:47:44', 1);
+INSERT INTO `strongadmin_menu` VALUES (26, 3, 18, '分配權限', 'strongadmin/adminRole/assignPermissions', 1, 200, '2021-01-08 13:08:33', '2021-09-22 14:47:44', 1);
 INSERT INTO `strongadmin_menu` VALUES (36, 1, 0, '主頁', NULL, 1, 99999, '2021-01-08 14:59:46', '2021-01-09 13:58:51', 2);
 INSERT INTO `strongadmin_menu` VALUES (37, 2, 36, '面板', 'strongadmin/index/panel', 1, 200, '2021-01-08 16:38:33', '2021-09-22 14:47:44', 2);
 INSERT INTO `strongadmin_menu` VALUES (38, 3, 14, '建立', 'strongadmin/adminUser/create', 1, 200, '2021-01-13 15:25:40', '2021-09-22 14:47:44', 1);
@@ -6037,7 +6037,7 @@ CREATE TABLE `strongadmin_role`  (
                                      `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '角色id',
                                      `name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL DEFAULT '' COMMENT '名稱',
                                      `desc` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT '' COMMENT '角色描述',
-                                     `permissions` json NULL COMMENT '擁有的許可權(route_url)',
+                                     `permissions` json NULL COMMENT '擁有的權限(route_url)',
                                      `created_at` datetime(0) NULL DEFAULT NULL COMMENT '新增時間',
                                      `updated_at` datetime(0) NULL DEFAULT NULL,
                                      PRIMARY KEY (`id`) USING BTREE,
