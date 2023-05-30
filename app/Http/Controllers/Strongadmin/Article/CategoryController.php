@@ -89,7 +89,7 @@ class CategoryController extends BaseController
             if($request->parent_id){
                 $parent_name = Category::where('id', $request->parent_id)->first()->name_label;
             }else{
-                $parent_name = '頂級菜單';
+                $parent_name = '頂層選單';
             }
             $request->merge(['parent_name'=>$parent_name]);
             return $this->view('article.category.form', ['model' => $category]);

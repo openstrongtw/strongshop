@@ -185,7 +185,7 @@
                 </div>
             </div>
         </div>
-        <!--導航區域-菜單 * 移動端隱藏-->
+        <!--導航區域-選單 * 移動端隱藏-->
         <div class="st-navmenu hidden-xs">
             <div class="container">
                 <ul class="nav nav-pills">
@@ -440,7 +440,7 @@
         <script>
 //js 初始化
             Util.init();
-//產品分類菜單
+//產品分類選單
             Util.allCategories();
 //頂部全域性通知手動關閉后不再顯示
             Util.navNotice();

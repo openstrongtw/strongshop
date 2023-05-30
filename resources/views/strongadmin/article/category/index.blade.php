@@ -9,7 +9,7 @@
 <div class="st-h15"></div>
 <div class="layui-container st-body">
     <div class="layui-btn-container">
-        <a class="layui-btn layui-btn-xs" onclick="Util.createFormWindow('/strongadmin/article/category/create?parent_name=頂級分類', this.innerText);">新增一級分類</a>
+        <a class="layui-btn layui-btn-xs" onclick="Util.createFormWindow('/strongadmin/article/category/create?parent_name=頂層分類', this.innerText);">新增一級分類</a>
         @if(request('down'))
         <a class="layui-btn layui-btn-xs" href="?down=0">預設收縮全部</a>
         @else
@@ -43,7 +43,7 @@
                 <td>{{$row->created_at}}</td>
                 <td>
                     <a class="layui-btn layui-btn-xs" onclick="Util.createFormWindow('/strongadmin/article/category/create?level=2&parent_id={{$row->id}}&parent_name=', this.innerText);">新增</a>
-                    <a class="layui-btn layui-btn-xs layui-btn-normal" onclick="Util.createFormWindow('/strongadmin/article/category/update?id={{$row->id}}&parent_name=頂級菜單', this.innerText);">更新</a>
+                    <a class="layui-btn layui-btn-xs layui-btn-normal" onclick="Util.createFormWindow('/strongadmin/article/category/update?id={{$row->id}}&parent_name=頂層選單', this.innerText);">更新</a>
                     <a class="layui-btn layui-btn-danger layui-btn-xs" onclick="Util.destroy('/strongadmin/article/category/destroy?id={{$row->id}}');">刪除</a>
                 </td>
             </tr>

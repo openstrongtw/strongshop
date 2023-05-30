@@ -4140,7 +4140,7 @@
                     "email": "openstrong@foxmail.com"
                 }
             ],
-            "description": "在1分鐘內構建一個功能齊全的管理後臺。基於 layui 前端框架開發的 Laravel 後臺管理框架。功能有 權限管理、菜單管理、角色管理、日誌記錄等。",
+            "description": "在1分鐘內構建一個功能齊全的管理後臺。基於 layui 前端框架開發的 Laravel 後臺管理框架。功能有 權限管理、選單管理、角色管理、日誌記錄等。",
             "homepage": "http://strongstub.strongshop.cn",
             "keywords": [
                 "laravel",
