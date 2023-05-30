@@ -43,7 +43,7 @@ class PayondeliveryController extends Controller
         }
 
         $cancel_url = route('home');
-        //收款賬號
+        //收款帳號
         $business = $model->more['business'] ?? config('strongshop.payment.paypal.business');
         //預設設定結算貨幣
         $defaultCurrencyPay = isset($model->more['currency']) || $model->more['currency'] == null ? $model->more['currency'] : config('strongshop.defaultCurrencyPay');
